@@ -1,0 +1,18 @@
+>> Buttons
+
+- Example:
+
+	For primary button
+	<button class = "primary"> Lorem Ipsum <i> </i></button>
+
+	For secondary button
+	<button class = "secondary"> Lorem Ipsum <i> </i></button>
+
+	For ghost button
+	<button class = "ghost"> Lorem Ipsum <i> </i></button>
+
+	For success button
+	<button class = "success"> Lorem Ipsum <i> </i></button>
+
+	For danger button
+	<button class = "danger"> Lorem Ipsum <i> </i></button>

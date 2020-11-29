@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    --primary: #374FD5;
+    --secondary: #000000;
+    --danger: #e0003b;
+    --success: #00ff88;
+    --warning: #ffbb00;
+    --main: #ffffff;
+    --grey-100: #F5F6F8;
+    --grey-200: #E6EAED;
+    --grey-300:#CED3D9;
+    --grey-400: #CED3D9;
+    --grey-500: #5C6574;
+}
+

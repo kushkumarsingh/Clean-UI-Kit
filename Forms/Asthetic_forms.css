@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    --primary: #374FD5;
+    --secondary: #000000;
+    --danger: #e0003b;
+    --success: #00ff88;
+    --warning: #ffbb00;
+    --main: #ffffff;
+    --grey-100: #F5F6F8;
+    --grey-200: #E6EAED;
+    --grey-300:#CED3D9;
+    --grey-400: #9fa4aa;
+    --grey-500: #5C6574;
+}
+
+/*-------------------------------------------------------------------Field--------------------------------------------------*/
+::placeholder {
+    color: var(--grey-400);
+  }
+.field{
+    border: none;
+    width: 400px;
+    padding: 20px 20px;
+    border-radius: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+    color: var(--primary);
+}
+.field:active{
+    outline: none;
+}
+.field:focus{
+    outline: none;
+    border: 2px solid var(--primary);
+}
+
+/*-------------------------------------------------------------------Solid field--------------------------------------------------*/
+.solid{
+    background-color: var(--grey-200);
+}
